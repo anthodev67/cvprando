@@ -1,299 +1,255 @@
-.CV
-{
-    font-family: Arial, sans-serif; 
+.CV {
+  font-family: Arial, sans-serif;
 }
-ul
-{
-    list-style: none
+ul {
+  list-style: none;
 }
-.CV, .anneesposte, .anneesdiplome 
-{
-    display: flex
+.CV,
+.anneesposte,
+.anneesdiplome {
+  display: flex;
 }
-.moi p, .contact, .campground, .mountain, .biking, .profession, .anneesposte, .anneesdiplome
-{
-    color: #404040
+.me p,
+.contact,
+.campground,
+.mountain,
+.biking,
+.profession,
+.anneesposte,
+.anneesdiplome,
+.paddingleftul {
+  color: #404040;
 }
-.CV_gauche
-{
-    background-color: #feca07;
-    width: 400px;
+.CVleft {
+  background-color: #039be5;
+  width: 400px;
 }
-.blocphoto
-{   
-    text-align: center;
-    margin-top: 65px;
+.blockphoto {
+  text-align: center;
+  margin-top: 65px;
 }
-.photo
-{ 
-    border: 4px solid #daaf12;
-    border-radius: 50%;
+.photo {
+  border: 4px solid #01579b;
+  border-radius: 50%;
 }
-.titregauche
-{
-    text-align: center;
-    background-color: #404040;
-    color: #feca07;
-    text-transform: uppercase;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 25px;    
+.lefttitle {
+  text-align: center;
+  background-color: #424242;
+  color: #039be5;
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 25px;
 }
-.contact ul li
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
+.contact ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-.moi
-{
-    height: 720px
+.me {
+  height: 720px;
 }
-.moi p 
-{
-    margin-left: 42px;
-    margin-right: 42px;
-    margin-top: 30px;
-    margin-bottom: auto;
-    text-align: justify;
+.me p {
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  text-align: justify;
 }
-.logo
-{
-    display: flex;
-    justify-content: space-around;   
+.logo {
+  display: flex;
+  justify-content: space-around;
 }
-.campground, .mountain, .biking
-{
-    text-align: center;
-    font-size: 45px;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+.campground,
+.mountain,
+.biking {
+  text-align: center;
+  font-size: 45px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
 }
-.CV_droit
-{
-    margin-left: 60px;
-    margin-right: 50px;
-    width: 1000px;
+.cvright {
+  margin-left: 60px;
+  margin-right: 50px;
+  width: 1000px;
 }
-.forname
-{
-    text-transform: uppercase;
-    font-size: 60px;
-    margin-top: 120px;
-    margin-bottom: 0px;
+.forname {
+  text-transform: uppercase;
+  font-size: 60px;
+  margin-top: 120px;
+  margin-bottom: 0px;
 }
-.colorforname
-{
-    color: #feca07;
+.colorforname {
+  color: #039be5;
 }
-.name
-{
-   font-weight: normal;
+.name {
+  font-weight: normal;
 }
-.profession
-{
-    margin-top: 0px;
-    font-size: 30px;
-    margin-bottom: 1px;
+.profession {
+  margin-top: 0px;
+  font-size: 30px;
+  margin-bottom: 1px;
 }
-.underline
-{
-    width: 85px;
-    background-color: #feca07;
-    height: 2px;
+.underline {
+  width: 85px;
+  background-color: #039be5;
+  height: 2px;
 }
-.formation
-{
-    margin-top: 140px;
-    margin-bottom: 0px; 
+.formation {
+  margin-top: 140px;
+  margin-bottom: 0px;
 }
-.titleright
-{
-    text-transform: uppercase;
-    font-size: 30px;
-    border-bottom: solid #feca07;
-    border-width: 3px;
-    padding-bottom: 15px;
+.titleright {
+  text-transform: uppercase;
+  font-size: 30px;
+  border-bottom: solid #039be5;
+  border-width: 3px;
+  padding-bottom: 15px;
 }
-.icone
-{
-    color: #feca07;
-    font-size: 40px;
-    margin-right: 40px;
+.icone {
+  color: #039be5;
+  font-size: 40px;
+  margin-right: 40px;
 }
-.stylepuce
-{
-    padding-right: 20px; 
-    color: #feca07;
-    font-size: 12px;
-    display: inline-block;
+.stylepuce {
+  padding-right: 20px;
+  color: #039be5;
+  font-size: 12px;
+  display: inline-block;
 }
-h3
-{
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: 0px;
-    margin-top: 15px;  
+h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 15px;
 }
-h4
-{
-    text-transform: capitalize;
-    font-weight: normal;
-    margin-top: 20px;
-    margin-bottom: 0px
+h4 {
+  text-transform: capitalize;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
-.paragraphe
-{
-    margin-top: 10px;
-    text-align: justify;
-    font-weight: normal;
+.paragraphe {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: normal;
 }
-.poste
-{
-   word-wrap: break-word;
+.poste {
+  word-wrap: break-word;
 }
-.styleul
-{
-    padding-left: 0px;
-    width: 270px;
-    font-weight: bold;
+.styleul {
+  padding-left: 0px;
+  width: 270px;
+  font-weight: bold;
 }
-.recommendation, .namerecommendation
-{
-    font-weight: bold;
+.recommendation,
+.namerecommendation {
+  font-weight: bold;
 }
-.namerecommendation
-{
-    padding-bottom: 10px;
-    text-transform: uppercase;
+.namerecommendation {
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
-.yearsformation
-{
-    width: auto;
-    padding-bottom: 230px;    
+.yearsformation {
+  width: auto;
+  padding-bottom: 230px;
 }
-.diplomas
-{
-    width: 600px;
+.diplomas {
+  width: 600px;
 }
-.city
-{
-    padding-left: 33px;
+.city {
+  padding-left: 33px;
 }
-.yearswork
-{
-    padding-bottom: 86px;
+.yearswork {
+  padding-bottom: 86px;
+}
+.paddingleftul {
+  padding-left: 0px;
 }
 
-@media all and (min-width: 900px)
-{
-    .photoresponsive
-    {
-        display: none;
-    }
-    .yearsresponsive
-    {
-        display: none;
-    }
-}
-
-@media all and (max-width: 900px)
-{
-    .CV
-    {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .CV_gauche
-    {
-        order: 2;
-        display: flex;
-        flex-direction: column;
-    }
-    .CV_gauche, .CV_droit
-    {
-        width: auto;    
-    }
-
-    .formation
-    {
-        margin-top: 20px;
-    }
-    .photoresponsive
-    {
-        margin-top: 30px;
-        border: 4px solid #daaf12;
-        border-radius: 50%;
-    }
-    .blocphoto
-    {
-        display: none;
-    }
-    h2
-    {
-        margin-top: 0px;
-    }
-    .nom, h2, .paddingleftul, .moi p, ul
-    {
-        text-align: center;
-    }
-    .underline
-    {
+@media all and (min-width: 900px) {
+  .photoresponsive {
     display: none;
-    }
-    .moi
-    {
-        height: auto;
-    }
-    .forname, .name
-    {
-        font-size: 40px;
-        margin-top: 10px;    
-    }
-    .contact li
-    {
-        display: inline-block;
-        text-align: center;
-        margin-right: 28px;
-    }
-    .moi, .leisure
-    {
-        margin-bottom: 25px
-    }
-    #deuxbis, .styleul
-    {
-        display: none;
-    }
-    .paragraphe
-    {
-        text-align: center
-    }
-    .diplomas
-    {
-    
-        width: auto
-    }
+  }
+  .yearsresponsive {
+    display: none;
+  }
 }
 
-@media all and (max-width: 600px)
-{
-    .titleright
-    {
-        font-size: 26px
-    }
+@media all and (max-width: 900px) {
+  .CV {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .CVleft {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .CVleft,
+  .cvright {
+    width: auto;
+  }
+
+  .formation {
+    margin-top: 20px;
+  }
+  .photoresponsive {
+    margin-top: 30px;
+    border: 4px solid #01579b;
+    border-radius: 50%;
+  }
+  .blockphoto {
+    display: none;
+  }
+  h2 {
+    margin-top: 0px;
+  }
+  .nom,
+  h2,
+  .paddingleftul,
+  .me p,
+  ul {
+    text-align: center;
+  }
+  .underline {
+    display: none;
+  }
+  .me {
+    height: auto;
+  }
+  .forname,
+  .name {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .contact li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 28px;
+  }
+  .me,
+  .leisure {
+    margin-bottom: 25px;
+  }
+  #deuxbis,
+  .styleul {
+    display: none;
+  }
+  .paragraphe {
+    text-align: center;
+  }
+  .diplomas {
+    width: auto;
+  }
 }
 
-
-    
-
-
-
-
-
-
-
-
+@media all and (max-width: 600px) {
+  .titleright {
+    font-size: 26px;
+  }
+}
