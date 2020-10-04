@@ -6,7 +6,7 @@ ul {
 }
 .CV,
 .anneesposte,
-.anneesdiplome {
+.graduateyears {
   display: flex;
 }
 .me p,
@@ -16,7 +16,7 @@ ul {
 .biking,
 .profession,
 .anneesposte,
-.anneesdiplome,
+.graduateyears,
 .paddingleftul {
   color: #404040;
 }
@@ -74,7 +74,7 @@ ul {
 .cvright {
   margin-left: 60px;
   margin-right: 50px;
-  width: 1000px;
+  width: 850px;
 }
 .forname {
   text-transform: uppercase;
@@ -142,7 +142,12 @@ h4 {
 }
 .styleul {
   padding-left: 0px;
-  width: 270px;
+  width: 280px;
+  font-weight: bold;
+}
+.styleulformation {
+  padding-left: 0px;
+  width: 2500px;
   font-weight: bold;
 }
 .recommendation,
@@ -156,9 +161,6 @@ h4 {
 .yearsformation {
   width: auto;
   padding-bottom: 230px;
-}
-.diplomas {
-  width: 600px;
 }
 .city {
   padding-left: 33px;
@@ -237,14 +239,15 @@ h4 {
     margin-bottom: 25px;
   }
   #deuxbis,
-  .styleul {
+  .styleul,
+  .styleulformation {
     display: none;
   }
   .paragraphe {
     text-align: center;
   }
-  .diplomas {
-    width: auto;
+  .yearsresponsive {
+    font-weight: bold;
   }
 }
 
