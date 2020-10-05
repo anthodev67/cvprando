@@ -179,6 +179,75 @@ h4 {
   }
 }
 
+@media all and (max-device-width: 900px) {
+  .CV {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .CVleft {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .CVleft,
+  .cvright {
+    width: auto;
+  }
+
+  .formation {
+    margin-top: 20px;
+  }
+  .photoresponsive {
+    margin-top: 30px;
+    border: 4px solid #01579b;
+    border-radius: 50%;
+  }
+  .blockphoto {
+    display: none;
+  }
+  h2 {
+    margin-top: 0px;
+  }
+  .nom,
+  h2,
+  .paddingleftul,
+  .me p,
+  ul {
+    text-align: center;
+  }
+  .underline {
+    display: none;
+  }
+  .me {
+    height: auto;
+  }
+  .forname,
+  .name {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .contact li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 28px;
+  }
+  .me,
+  .leisure {
+    margin-bottom: 25px;
+  }
+  #deuxbis,
+  .styleul,
+  .styleulformation {
+    display: none;
+  }
+  .paragraphe {
+    text-align: center;
+  }
+  .yearsresponsive {
+    font-weight: bold;
+  }
+}
 @media all and (max-width: 900px) {
   .CV {
     display: flex;
@@ -250,6 +319,11 @@ h4 {
 }
 
 @media all and (max-width: 600px) {
+  .titleright {
+    font-size: 26px;
+  }
+}
+@media all and (max-device-width: 600px) {
   .titleright {
     font-size: 26px;
   }
