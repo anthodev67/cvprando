@@ -4,31 +4,30 @@
 ul {
   list-style: none;
 }
-.CV,
-.yearsjob,
-.graduateyears {
+body,
+.yearsjob {
   display: flex;
 }
 .me p,
 .contact,
 .link,
-.campground,
-.mountain,
-.biking,
+.stylelogo,
 .profession,
 .yearsjob,
 .graduateyears,
-.paddingleftul {
+.paddingleftul,
+.ulrecommendation {
   color: #404040;
 }
 .CVleft {
   background-color: #039be5;
-  width: 30%;
+  width: 32%;
 }
 .photo {
   border: 4px solid #01579b;
   border-radius: 50%;
-  margin-top: 65px;
+  margin-top: 60px;
+  margin-bottom: 2.5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +39,7 @@ ul {
   text-transform: uppercase;
   padding-top: 7px;
   padding-bottom: 7px;
-  font-size: 25px;
+  font-size: 1.5em;
 }
 .contact ul li {
   margin-top: 10px;
@@ -64,11 +63,9 @@ ul {
   display: flex;
   justify-content: space-around;
 }
-.campground,
-.mountain,
-.biking {
+.stylelogo {
   text-align: center;
-  font-size: 45px;
+  font-size: 2.9em;
   border: 1px solid;
   border-radius: 50%;
   width: 80px;
@@ -78,11 +75,11 @@ ul {
 .cvright {
   margin-left: 60px;
   margin-right: 50px;
-  width: 70%;
+  width: 68%;
 }
 .forname {
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 3.9em;
   margin-top: 120px;
   margin-bottom: 0px;
 }
@@ -94,7 +91,7 @@ ul {
 }
 .profession {
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 2em;
   margin-bottom: 1px;
 }
 .underline {
@@ -104,29 +101,28 @@ ul {
 }
 .formation {
   margin-top: 140px;
-  margin-bottom: 0px;
 }
 .titleright {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2em;
   border-bottom: solid #039be5;
   border-width: 3px;
   padding-bottom: 15px;
 }
 .icone {
   color: #039be5;
-  font-size: 40px;
+  font-size: 1.4em;
   margin-right: 40px;
 }
 .stylepuce {
   padding-right: 20px;
   color: #039be5;
-  font-size: 12px;
+  font-size: 0.8em;
   display: inline-block;
 }
 h3 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.2em;
   margin-bottom: 0px;
   margin-top: 15px;
 }
@@ -148,8 +144,11 @@ h4 {
 }
 .styleulformation {
   padding-left: 0px;
-  width: 2500px;
   font-weight: bold;
+  width: 160em;
+}
+.graduateyears {
+  display: flex;
 }
 .recommendation,
 .namerecommendation {
@@ -160,8 +159,7 @@ h4 {
   text-transform: uppercase;
 }
 .yearsformation {
-  width: auto;
-  padding-bottom: 230px;
+  padding-bottom: 14.4em;
 }
 .city {
   padding-left: 38px;
@@ -171,6 +169,11 @@ h4 {
 }
 .paddingleftul {
   padding-left: 0px;
+  display: inline-block;
+  margin-right: 11em;
+}
+.ulrecommendation {
+  display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
@@ -205,7 +208,7 @@ h4 {
     border: 4px solid #01579b;
     border-radius: 50%;
   }
-  .blockphoto {
+  .photo {
     display: none;
   }
   h2 {
@@ -214,6 +217,7 @@ h4 {
   .nom,
   h2,
   .paddingleftul,
+  .ulrecommendation,
   .me p,
   ul {
     text-align: center;
@@ -224,9 +228,8 @@ h4 {
   .me {
     height: auto;
   }
-  .forname,
-  .name {
-    font-size: 40px;
+  .forname {
+    font-size: 3em;
     margin-top: 10px;
   }
   .contact li {
@@ -249,6 +252,12 @@ h4 {
     font-weight: bold;
   }
   .titleright {
-    font-size: 26px;
+    font-size: 1.5em;
+  }
+  .paddingleftul {
+    margin-right: 2em;
+  }
+  .city {
+    padding-left: 0em;
   }
 }
