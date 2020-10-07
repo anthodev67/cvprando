@@ -62,11 +62,13 @@ body,
 .logo {
   display: flex;
   justify-content: space-around;
+  padding-left: 0px;
+  padding-top: 0.8em;
 }
 .stylelogo {
   text-align: center;
   font-size: 2.9em;
-  border: 1px solid;
+  border: 1.5px solid;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -175,7 +177,6 @@ h4 {
 .ulrecommendation {
   display: inline-block;
 }
-
 @media screen and (min-width: 768px) {
   .photoresponsive {
     display: none;
