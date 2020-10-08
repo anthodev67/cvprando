@@ -1,11 +1,10 @@
-.CV {
+body {
   font-family: Arial, sans-serif;
 }
 ul {
   list-style: none;
 }
-body,
-.yearsjob {
+body {
   display: flex;
 }
 .me p,
@@ -111,6 +110,9 @@ body,
   border-width: 3px;
   padding-bottom: 15px;
 }
+.yearsjob {
+  display: inline-block;
+}
 .icone {
   color: #039be5;
   font-size: 1.4em;
@@ -141,16 +143,21 @@ h4 {
 }
 .styleul {
   padding-left: 0px;
-  width: 520px;
+  width: 33%;
   font-weight: bold;
+  float: left;
 }
 .styleulformation {
   padding-left: 0px;
   font-weight: bold;
-  width: 160em;
+  width: 33%;
+  float: left;
+}
+.articleformation {
+  width: 66%;
 }
 .graduateyears {
-  display: flex;
+  display: inline-block;
 }
 .recommendation,
 .namerecommendation {
@@ -177,7 +184,10 @@ h4 {
 .ulrecommendation {
   display: inline-block;
 }
-@media screen and (min-width: 768px) {
+.professionalexperiencearticle {
+  width: 66%;
+}
+@media screen and (min-width: 1024px) {
   .photoresponsive {
     display: none;
   }
@@ -186,7 +196,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .CV {
     display: flex;
     flex-direction: column;
@@ -261,4 +271,6 @@ h4 {
   .city {
     padding-left: 0em;
   }
+}
+@media screen and (max-width: 480px) {
 }
