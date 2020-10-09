@@ -168,7 +168,7 @@ h4 {
   text-transform: uppercase;
 }
 .yearsformation {
-  padding-bottom: 14.4em;
+  padding-bottom: 15.5em;
 }
 .city {
   padding-left: 38px;
@@ -187,7 +187,18 @@ h4 {
 .professionalexperiencearticle {
   width: 66%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  .photo {
+    width: 90%;
+  }
+  .paddingleftul {
+    margin-right: 0px;
+  }
+  .yearsformation {
+    padding-bottom: 24.5em;
+  }
+}
+@media screen and (min-width: 840px) {
   .photoresponsive {
     display: none;
   }
@@ -196,7 +207,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 840px) {
   .CV {
     display: flex;
     flex-direction: column;
@@ -272,5 +283,19 @@ h4 {
     padding-left: 0em;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 630px) {
+  .photoresponsive {
+    width: 60%;
+  }
+  .ulrecommendation {
+    padding-left: 0em;
+    margin-left: 0em;
+  }
+  .paddingleftul {
+    padding-left: 0em;
+    margin-left: 1.9em;
+  }
+  header {
+    font-size: 0.5em;
+  }
 }
