@@ -12,10 +12,10 @@ body {
 .link,
 .stylelogo,
 .profession,
-.yearsjob,
 .graduateyears,
 .paddingleftul,
-.ulrecommendation {
+.ulrecommendation,
+.color {
   color: #404040;
 }
 .CVleft {
@@ -110,13 +110,11 @@ body {
   border-width: 3px;
   padding-bottom: 15px;
 }
-.yearsjob {
-  display: inline-block;
-}
 .icone {
   color: #039be5;
   font-size: 1.4em;
   margin-right: 40px;
+  margin-left: 0px;
 }
 .stylepuce {
   padding-right: 20px;
@@ -124,11 +122,8 @@ body {
   font-size: 0.8em;
   display: inline-block;
 }
-h3 {
+.uppercase {
   text-transform: uppercase;
-  font-size: 1.2em;
-  margin-bottom: 0px;
-  margin-top: 15px;
 }
 h4 {
   text-transform: capitalize;
@@ -171,10 +166,7 @@ h4 {
   padding-bottom: 15.5em;
 }
 .city {
-  padding-left: 38px;
-}
-.yearswork {
-  padding-bottom: 86px;
+  padding-left: 2.2em;
 }
 .paddingleftul {
   padding-left: 0px;
@@ -184,8 +176,14 @@ h4 {
 .ulrecommendation {
   display: inline-block;
 }
-.professionalexperiencearticle {
-  width: 66%;
+.blockformation {
+  width: 63%;
+  display: inline-block;
+}
+.twothousandtwenty,
+.twothousandandnine {
+  float: left;
+  width: 36%;
 }
 @media screen and (max-width: 1024px) {
   .photo {
@@ -222,8 +220,12 @@ h4 {
   .cvright {
     width: auto;
   }
-  .formation {
-    margin-top: 20px;
+  .margin {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .marginbottom {
+    margin-bottom: 2em;
   }
   .photoresponsive {
     margin-top: 30px;
@@ -267,9 +269,7 @@ h4 {
   .styleulformation {
     display: none;
   }
-  .paragraphe {
-    text-align: center;
-  }
+
   .yearsresponsive {
     font-weight: bold;
   }
@@ -281,6 +281,12 @@ h4 {
   }
   .city {
     padding-left: 0em;
+  }
+  .cvright p {
+    width: auto;
+  }
+  .responsiveblock {
+    width: 100%;
   }
 }
 @media screen and (max-width: 630px) {
@@ -297,5 +303,9 @@ h4 {
   }
   header {
     font-size: 0.5em;
+  }
+  .cvright {
+    margin-right: 0em;
+    margin-left: 0em;
   }
 }
